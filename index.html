@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#FFF7EE">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ADDFRND">
+<meta name="description" content="ADDFRND clickable prototype — a friends-only app for making real friends nearby. No one should eat alone. Example data only.">
+<title>ADDFRND · clickable prototype</title>
+<link rel="icon" href="assets/addfrnd-app-icon.svg?v=20260929b" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/addfrnd-app-icon.png?v=20260929b">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?v=20260929b">
+<script>window.APP_VERSION="20260929b";</script>
+</head>
+<body>
+<aside id="side">
+ <div class="card">
+  <img src="assets/addfrnd-logo-tagline.svg?v=20260929b" alt="ADDFRND — No one should eat alone." style="width:220px;display:block">
+  <p class="small muted" style="margin-top:12px;line-height:1.5"><b style="color:var(--navy)">Clickable prototype</b> with example data. Everyone shown is fictional; venues are real places around Rhos-on-Sea &amp; Colwyn Bay. Nothing is sent anywhere.</p>
+  <h4>Jump to a flow</h4>
+  <div id="side-jumps"></div>
+  <p class="tiny muted" style="margin-top:12px">Tip: tap the <b>PROTOTYPE</b> pill (or long-press the logo) for the demo menu on a phone.</p>
+ </div>
+</aside>
+<div id="stage">
+ <div id="device">
+  <div id="viewport"></div>
+  <div id="tabbar" class="hide"></div>
+  <div class="fakestatus"></div>
+  <button id="demoPill" data-act="demoMenu" aria-label="Prototype demo menu"><span style="width:6px;height:6px;border-radius:3px;background:#FFC94A;display:inline-block"></span>PROTOTYPE · DEMO</button>
+  <div id="notif"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="overlay"></div>
+  <div class="homebar"></div>
+ </div>
+</div>
+<noscript><p style="padding:20px">ADDFRND prototype needs JavaScript.</p></noscript>
+<script src="js/icons.js?v=20260929b"></script>
+<script src="js/data.js?v=20260929b"></script>
+<script src="js/ui.js?v=20260929b"></script>
+<script src="js/app.js?v=20260929b"></script>
+<script src="js/screens-a.js?v=20260929b"></script>
+<script src="js/screens-b.js?v=20260929b"></script>
+<script src="js/screens-c.js?v=20260929b"></script>
+<script src="js/screens-d.js?v=20260929b"></script>
+<script src="js/actions.js?v=20260929b"></script>
+<script src="js/actions2.js?v=20260929b"></script>
+</body>
+</html>
